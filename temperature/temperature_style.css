@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
+    background-image: url(https://wallpapers.com/images/high/sunlight-heat-high-temperature-db0nd8c6gu16tyeo.webp);
     margin: 0;
     padding: 0;
     display: flex;
@@ -57,7 +58,7 @@ input:focus {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #e71212;
     color: white;
     border: none;
     padding: 12px 20px;
