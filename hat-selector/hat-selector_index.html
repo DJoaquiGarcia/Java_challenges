@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombrero Seleccionador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sombrero Seleccionador de Hogwarts</h1>
+        <form id="sortingHatForm">
+            <div class="question">
+                <label for="question1">¿Qué cualidad valoras más en ti mismo?</label>
+                <select id="question1">
+                    <option value="a">Valor</option>
+                    <option value="b">Ambición</option>
+                    <option value="c">Lealtad</option>
+                    <option value="d">Inteligencia</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="question2">¿Cuál de estos lugares prefieres?</label>
+                <select id="question2">
+                    <option value="a">Bosque</option>
+                    <option value="b">Mazmorras</option>
+                    <option value="c">Prados</option>
+                    <option value="d">Biblioteca</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="question3">¿Qué criatura mágica te gustaría tener como mascota?</label>
+                <select id="question3">
+                    <option value="a">Fénix</option>
+                    <option value="b">Serpiente</option>
+                    <option value="c">Tejón</option>
+                    <option value="d">Águila</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="question4">¿Qué poción preferirías hacer?</label>
+                <select id="question4">
+                    <option value="a">Poción de coraje</option>
+                    <option value="b">Poción de poder</option>
+                    <option value="c">Poción de amistad</option>
+                    <option value="d">Poción de sabiduría</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="question5">¿Qué carrera te interesa más?</label>
+                <select id="question5">
+                    <option value="a">Auror</option>
+                    <option value="b">Ministro de Magia</option>
+                    <option value="c">Medi-Mago</option>
+                    <option value="d">Profesor de Hogwarts</option>
+                </select>
+            </div>
+
+            <button type="button" onclick="sortHouse()">Enviar</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
